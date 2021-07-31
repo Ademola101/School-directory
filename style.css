@@ -1,0 +1,16 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    background-image: url(images/pexels-tima-miroshnichenko-5427996\ \(2\).jpg);
+    background-size: cover;
+    height: 70vh;
+    width: auto;
+  }
+
+.school-text {
+  color: white;text-transform: capitalize;
+}
+}
