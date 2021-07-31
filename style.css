@@ -18,7 +18,7 @@ main {
   color: white;
   text-transform: uppercase;
   margin: auto;
-  margin-bottom: 0;
+  margin-bottom: 5%;
   margin-top: 0;
   text-align: center;
 }
@@ -39,4 +39,14 @@ section {
   width: 94%;
   margin: 0 auto;
   border-radius: 5px;
+}
+
+.works {
+  height: fit-content;
+  background-color: white;
+  text-decoration: none;
+  color: dimgrey;
+  width: fit-content;
+  margin-top: 10%;
+  margin-left: 30%;
 }
