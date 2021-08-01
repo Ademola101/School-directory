@@ -10,9 +10,9 @@
 * CSS
 * Bootstrap
 
-<!-- ### Live Demo -->
+### Live Demo
 
-<!-- [Live Demo link](https://myprojectusermetrics.herokuapp.com/) -->
+[Live Demo link](https://ademola101.github.io/School-directory/)
 
 ## Author
 
