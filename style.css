@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Roboto sans-serif;
 }
 
 main {
@@ -33,7 +33,7 @@ main {
   color: white;
 }
 
-section {
+.form {
   height: 140px;
   background-color: white;
   opacity: 0.8;
@@ -49,12 +49,17 @@ section {
   color: dimgrey;
   width: fit-content;
   margin-top: 10%;
-  margin-left: 30%;
+  margin-left:40%;
 }
 
 .catalogue-width {
   width: 50%;
   margin: 0 auto;
+}
+
+.icon-center {
+  width: 100%;
+  margin: auto 0;
 }
 
 @media only screen and (min-width: 1024px) {
