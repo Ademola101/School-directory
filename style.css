@@ -50,3 +50,13 @@ section {
   margin-top: 10%;
   margin-left: 30%;
 }
+
+@media only screen and (min-width: 1024px) {
+  .catalogue-width {
+    width: 50vw;
+  }
+
+  .header-color {
+    height: 10vh;
+  }
+}
