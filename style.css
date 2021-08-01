@@ -25,7 +25,7 @@ main {
 }
 
 .header-color {
-  background-color: brown;
+  background-color: rgb(201, 53, 53);
   height: 20%;
 }
 
@@ -59,7 +59,7 @@ main {
 
 .icon-center {
   width: 100%;
-  margin: auto 0;
+  margin: auto;
 }
 
 @media only screen and (min-width: 1024px) {
