@@ -21,6 +21,7 @@ main {
   margin-bottom: 5%;
   margin-top: 0;
   text-align: center;
+  padding-left: 5%;
 }
 
 .header-color {
@@ -49,6 +50,11 @@ section {
   width: fit-content;
   margin-top: 10%;
   margin-left: 30%;
+}
+
+.catalogue-width {
+  width: 50%;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 1024px) {
