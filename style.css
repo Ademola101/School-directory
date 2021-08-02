@@ -85,7 +85,6 @@ main {
   margin-left: 10%;
   border-radius: 50%;
   margin-top: 5%;
-
 }
 
 .travel-bg {
@@ -98,6 +97,7 @@ main {
   width: 90%;
   margin-left: 5%;
   margin-bottom: 3%;
+  max-height: 300px;
 }
 
 
@@ -121,4 +121,66 @@ main {
   .header-color {
     height: 10vh;
   }
+
+  .over-bg {
+    background-color: rgb(236, 120, 74);
+    max-height: 500px;
+    display: flex;
+  }
+
+  .over-bg-lg {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .travel-bg {
+    background-color: lightslategray;
+    height: fit-content;
+    width: auto;
+    display: flex;
+  }
+
+  .naija-image {
+    width: 20%;
+    margin-left: auto;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-right: 100px;
+  }
+
+  .works {
+    background-color: white;
+    text-decoration: none;
+    color: dimgrey;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 0;
+  }
+
+  
+  .travel-image {
+    width: 20%;
+    margin-left: auto;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-right: 100px;
+  }
+
+  .anytime {
+    background-color: lightskyblue;
+    display: flex;
+  }
+
+  .over-any-bg {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .travel-image-p {
+    width: 20%;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 2%;
+  }
+  
 }
