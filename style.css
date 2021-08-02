@@ -182,5 +182,20 @@ main {
     margin-right: 100px;
     margin-top: 2%;
   }
+
+  .footer-flex {
+    display: flex;
+  }
+
+  .home {
+    width: 40vw;
+  }
+  .facebook {
+    width: 40vw;
+  }
   
+.sus-width {
+  width: 30vw;
+}
+
 }
