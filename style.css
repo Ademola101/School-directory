@@ -42,14 +42,23 @@ main {
   border-radius: 5px;
 }
 
-.works {
-  height: fit-content;
+.h-works {
   background-color: white;
   text-decoration: none;
   color: dimgrey;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 40%;
   width: fit-content;
+}
+
+.works {
+  background-color: white;
+  text-decoration: none;
+  color: dimgrey;
   margin-top: 10%;
   margin-left:40%;
+  margin-bottom: 10%;
 }
 
 .catalogue-width {
@@ -60,6 +69,40 @@ main {
 .icon-center {
   width: 100%;
   margin: auto;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.over-bg {
+  background-color: rgb(236, 120, 74);
+  min-height: 320px;
+}
+
+.naija-image {
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 100px;
+  margin-top: 5%;
+
+}
+
+.travel-bg {
+  background-color: lightslategray;
+  height: fit-content;
+  width: auto;
+}
+
+.travel-image {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.anytime {
+  background-color: lightskyblue;
+
 }
 
 @media only screen and (min-width: 1024px) {
