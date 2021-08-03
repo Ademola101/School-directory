@@ -18,6 +18,10 @@
   margin-top: auto;
 }
 
+.font-card {
+  font-size: 1.12em;
+}
+
 .form-flex {
   display: flex;
   flex-direction: row;
@@ -33,10 +37,6 @@
 }
 .font-w {
   font-size: 1.8rem
-}
-
-.font-card {
-  font-size: 1.12em;
 }
 
 .travel-bg {

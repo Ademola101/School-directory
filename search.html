@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="desktop.css" media="only screen and (min-width: 1024px)">
+  <link rel="stylesheet" href="tablet.css" media="(min-width: 768px) and (max-width:1023px)">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
@@ -16,7 +17,7 @@
 <body> <div class="d-flex flex-column">
   <header class="header-color container-fluid">
 
-    <nav class="nav  gx-lg-0 my-lg-3 d-flex flex-column justify-content-center flex-md-row "> <a class=
+    <nav class="nav  gx-lg-0 my-lg-3 d-flex flex-column justify-content-center flex-sm-row "> <a class=
       "text-decoration-none link-dark nav-item text-color-white catalogue-width navbar-brand mb-3 mt-1 mb-lg-auto" href="index.html">
       <span class="iconify" data-icon="bi:pin-map-fill" data-inline="false"></span>
       FindMySchool
@@ -46,10 +47,10 @@
 
 <main>
   <div class="card bg-light">
-<div class="card-header fw-bold">
+<div class="card-header fw-bolder text-center text-muted font-w mt-sm-3">
 Filter by the school name, cities, level or curriculum:
 </div>
-<form class="card body m-3 ">
+<form class="card body m-3 mx-sm-5 form-flex  ">
   <input  type="text" class="form-control mb-1" placeholder="School name">
   <select class="form-select mb-1" aria-label="Default select">
     <option selected="">City</option>
@@ -75,17 +76,17 @@ Filter by the school name, cities, level or curriculum:
 </form>
   </div>
 
-  <p class="h5 container-fluid">
+  <p class="h5 container-fluid text-sm-center mt-sm-5 fw-bold mb-mt-4 text-muted">
     Search Results Found 6 Restaurant(s)
   </p> 
-  <div class="container">
+  <div class="container container-fluid-sm">
     
-  <div class="card ">
+  <div class="card-grid"><div class="card mt-2 ">
 <img class="card-img-top" src="images/GOF.jpeg" alt="GOF">
-<div class="card-header">
+<div class="card-header font-card">
 GOF International Schoool
 </div>
-<div class="card-body">
+<div class="card-body font-card">
   GOF is an acronym for Gbenga Olowe and Funke, the team founders of GOF International Schools, located in Nigeria and Cote d’Ivoire. The school began in Ejigbo 
   (Osun State) at the Nursery and Primary level in 1986 before the addition of the secondary arm in 1995
 </div>
@@ -96,10 +97,10 @@ GOF International Schoool
 
   <div class="card mt-2">
     <img class="card-img-top" src="images/daily.jpeg" alt="daily">
-    <div class="card-header">
+    <div class="card-header font-card">
       Day Stars Private Schools
     </div>
-    <div class="card-body">
+    <div class="card-body font-card">
       Day Stars Private Schools was established in January 3rd 2011 to the glory of God. The school has graduated several 
       sets of pupils into secondary schools, and has been awarded prizes for its outstanding academic performance.
     </div>
@@ -111,25 +112,26 @@ GOF International Schoool
 
       <div class="card mt-2">
         <img class="card-img-top" src="images/Greenspring.jpeg" alt="Green">
-        <div class="card-header">
+        <div class="card-header font-card">
           Greensprings School
         </div>
-        <div class="card-body">
+        <div class="card-body font-card">
           The Elementary Section of Greensprings School runs the International Primary Curriculum (IPC).
-           The curriculum is child-centred, teacher friendly – and it is used mostly by the best primary schools in Lagos and Nigeria. The IPC enables your child to take responsibility for his or her learning by involving in activities such as planning, researching, recording, and interacting with teachers and other students.
+           The curriculum is child-centred, teacher friendly – and it is used mostly by the best primary 
+           schools in Lagos and Nigeria. 
         </div>
         <div class="card-footer">
           <button type="button" class="btn btn-primary">View details</button>
         </div>
-        
+      </div>
           </div>
-
-          <div class="card mt-2">
+            <div class="card-grid">
+          <div class="card mt-2 mb-sm-4">
             <img class="card-img-top" src="images/Oasis.jpeg" alt="Oasis">
-            <div class="card-header">
+            <div class="card-header font-card">
               Oasis Royal academy
             </div>
-            <div class="card-body">
+            <div class="card-body font-card">
               Oasis Royal academy is a citadel of learning located at Osun state. Its serene atmosphere surrounded with the best of nature’s
                beauty which is an added advantage in helping out wards learn faster with utmost concentration.
             </div>
@@ -139,12 +141,12 @@ GOF International Schoool
             
               </div>
 
-              <div class="card mt-2">
+              <div class="card mt-2 mb-sm-4">
                 <img class="card-img-top" src="images/images (6).jpeg" alt="daily">
-                <div class="card-header">
+                <div class="card-header font-card">
                   Start-Rite Schools 
                 </div>
-                <div class="card-body">
+                <div class="card-body font-card">
                   Start-Rite Schools is committed to safeguarding and promoting the welfare of children and young people. With this in mind, 
                   all teaching and administrative staff are expected to complete Educare Level 2 Safeguarding.
                 </div>
@@ -157,17 +159,17 @@ GOF International Schoool
 
                   <div class="card mt-2 mb-4">
                     <img class="card-img-top" src="images/images (8).jpeg" alt="The Regent College Abuja">
-                    <div class="card-header">
+                    <div class="card-header font-card">
                       The Regent College Abuja
                     </div>
-                    <div class="card-body">
+                    <div class="card-body font-card">
                       The Regent College Abuja is a sixth form institution of further education, offering a range of carefully crafted courses that meet the 
                       standards of international universities in the UK, USA, Canada, Dubai, Europe, Australia and the Caribbean.
                     </div>
                     <div class="card-footer">
                       <button type="button" class="btn btn-primary">View details</button>
                     </div>
-                    
+                  </div>
                       </div>
                     </div>
 </main>
@@ -209,7 +211,7 @@ GOF International Schoool
 
 </div>
 <!-- suscribe -->
-<div class="d-md-flex">
+<div class="d-sm-flex">
 <div >
   <div class="suscribe text-light text-center fw-bold mt-2 sus-width">SUSCRIBE</div>
   <div class="input-group container-fluid">
@@ -246,14 +248,14 @@ GOF International Schoool
 </div></div>
 <!-- card footer -->
 <div class="card-footer text-muted">
-  <div class="text-center text-md-start col-md-4">
+  <div class="text-center text-sm-start col-sm-4">
   <i class="bi bi-facebook "></i>
   <i class="bi bi-twitter m-2"></i>
   <i class="bi bi-printer m-2"></i>
   <i class="bi bi-share m-2"></i>
   <i class="bi bi-save m-2"></i>
 </div>
-<span class="d-block mt-3 mt-md-0 text-center text-md-end text-light col-md-8"> &copy; FindMySchool &reg; All right protected </span>
+<span class="d-block mt-3 mt-sm-0 text-center text-sm-end text-light col-sm-8"> &copy; FindMySchool &reg; All right protected </span>
 	
 </div>
 </footer>
