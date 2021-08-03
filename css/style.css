@@ -3,7 +3,7 @@ body {
 }
 
 main {
-  background-image: url(images/pexels-tima-miroshnichenko-2.jpg);
+  background-image: url(/images/pexels-tima-miroshnichenko-2.jpg);
   height: 70vh;
   width: auto;
   background-attachment: fixed;
@@ -110,92 +110,4 @@ main {
 
 .anytime {
   background-color: lightskyblue;
-
-}
-
-@media only screen and (min-width: 1024px) {
-  .catalogue-width {
-    width: 50vw;
-  }
-
-  .header-color {
-    height: 10vh;
-  }
-
-  .over-bg {
-    background-color: rgb(236, 120, 74);
-    max-height: 500px;
-    display: flex;
-  }
-
-  .over-bg-lg {
-    margin-bottom: auto;
-    margin-top: auto;
-  }
-
-  .travel-bg {
-    background-color: lightslategray;
-    height: fit-content;
-    width: auto;
-    display: flex;
-  }
-
-  .naija-image {
-    width: 20%;
-    margin-left: auto;
-    border-radius: 50%;
-    margin-top: 5%;
-    margin-right: 100px;
-  }
-
-  .works {
-    background-color: white;
-    text-decoration: none;
-    color: dimgrey;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 0;
-  }
-
-  
-  .travel-image {
-    width: 20%;
-    margin-left: auto;
-    border-radius: 50%;
-    margin-top: 5%;
-    margin-right: 100px;
-  }
-
-  .anytime {
-    background-color: lightskyblue;
-    display: flex;
-  }
-
-  .over-any-bg {
-    margin-bottom: auto;
-    margin-top: auto;
-  }
-
-  .travel-image-p {
-    width: 20%;
-    margin-left: auto;
-    margin-right: 100px;
-    margin-top: 2%;
-  }
-
-  .footer-flex {
-    display: flex;
-  }
-
-  .home {
-    width: 40vw;
-  }
-  .facebook {
-    width: 40vw;
-  }
-  
-.sus-width {
-  width: 30vw;
-}
-
 }
