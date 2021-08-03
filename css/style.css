@@ -2,7 +2,7 @@ body {
   font-family: Roboto sans-serif;
 }
 
-main {
+.main {
   background-image: url(/images/pexels-tima-miroshnichenko-2.jpg);
   height: 70vh;
   width: auto;
