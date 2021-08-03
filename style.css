@@ -3,7 +3,7 @@ body {
 }
 
 .main {
-  background-image: url(/images/pexels-tima-miroshnichenko-2.jpg);
+  background-image: url(images/pexels-tima-miroshnichenko-2.jpg);
   height: 70vh;
   width: auto;
   background-attachment: fixed;
