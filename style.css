@@ -148,6 +148,11 @@ body {
   font-weight: 1.5rem !important;
 }
 
+.back-text {
+  background-color: white;
+  opacity: 0.8;
+}
+
 
 @media only screen and (min-width: 1024px){
   .catalogue-width {
@@ -287,6 +292,11 @@ body {
 @media (min-width: 768px) and (max-width:1023px) {
   .catalogue-width {
     width: 50vw;
+  }
+  
+  .text-grid {
+    display: grid;
+    grid-template-columns: 80% 20%;
   }
 
   .header-color {
