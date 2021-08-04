@@ -5,6 +5,19 @@ body {
   margin-left: 80%;
 }
 
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid white ;
+}
+
+.icon-f {
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
 .d-bloc {
   display: block !important;
 }
@@ -68,13 +81,13 @@ body {
 }
 
 .h-works {
+  position: relative;
+  bottom: 70px;
   background-color: white;
-  text-decoration: none;
-  color: dimgrey;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  margin-left: 40%;
-  width: fit-content;
+  left: 30%;
+  font-size: 1rem;
+  padding: 2%;
+  font-weight: bold;
 }
 
 .works {
@@ -159,6 +172,16 @@ body {
     width: 50vw;
   }
 
+  .h-works {
+    position: relative;
+    top: 2%;
+    background-color: white;
+    left: 40%;
+    font-size: 1.1rem;
+    padding: 1%;
+    font-weight: bold;
+  }
+
   .text-grid {
     display: grid;
     grid-template-columns: 80% 20%;
@@ -176,12 +199,13 @@ body {
     background-color: rgb(236, 120, 74);
     max-height: 500px;
     display: flex;
+    width: 100%;
   }
   
   .over-bg-lg {
     margin-bottom: auto;
     margin-top: auto;
-    width: 70vw;
+    width: 50%;
   }
   
   .form-flex {
@@ -237,6 +261,10 @@ body {
     margin-bottom: 2% !important;
   }
   
+
+  .w-80 {
+    width: 80%;
+  }
   .works {
     background-color: white;
     text-decoration: none;
@@ -262,6 +290,7 @@ body {
   .over-any-bg {
     margin-bottom: auto;
     margin-top: auto;
+    width: 50%;
   }
   
   .travel-image-p {
@@ -293,6 +322,15 @@ body {
   .catalogue-width {
     width: 50vw;
   }
+
+  .h-works {
+    position: relative;
+    background-color: white;
+    left: 30%;
+    font-size: 1.2rem;
+    padding: 2%;
+    font-weight: bold;
+  }
   
   .text-grid {
     display: grid;
@@ -312,6 +350,7 @@ body {
   .over-bg-lg {
     margin-bottom: auto;
     margin-top: auto;
+    width: 50%;
   }
 
   .letter-spa {
@@ -355,7 +394,7 @@ body {
     }
     
     .naija-image {
-      width: 40% !important;
+      width: 20% !important;
       margin-left: auto;
       border-radius: 50%;
       margin-top: 5%;
@@ -388,6 +427,7 @@ body {
     .over-any-bg {
       margin-bottom: auto;
       margin-top: auto;
+      width: 50%;
     }
     
     .travel-image-p {
