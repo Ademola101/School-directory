@@ -1,6 +1,7 @@
 body {
-  font-family: Roboto sans-serif;
+  font-family: Roboto, serif;
 }
+
 .apply {
   margin-left: 80%;
 }
@@ -10,7 +11,8 @@ body {
   height: 50px;
   border-radius: 50%;
   background-color: transparent;
-  border: 1px solid white ;
+  border: 1px solid white;
+  margin: auto;
 }
 
 .icon-f {
@@ -95,7 +97,7 @@ body {
   text-decoration: none;
   color: dimgrey;
   margin-top: 10%;
-  margin-left:30%;
+  margin-left: 30%;
   margin-bottom: 10% !important;
   font-size: 1.2em;
 }
@@ -128,7 +130,7 @@ body {
 
 .travel-bg {
   background-color: lightslategray;
-  height: fit-content;
+  height: auto;
   width: auto;
 }
 
@@ -138,8 +140,6 @@ body {
   margin-bottom: 3%;
   max-height: 300px;
 }
-
-
 
 .travel-image {
   width: 70%;
@@ -157,17 +157,12 @@ body {
   background-color: lightskyblue;
 }
 
-.search-font {
-  font-weight: 1.5rem !important;
-}
-
 .back-text {
   background-color: white;
   opacity: 0.8;
 }
 
-
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px) {
   .catalogue-width {
     width: 50vw;
   }
@@ -190,30 +185,30 @@ body {
   .none {
     display: block;
   }
-  
+
   .header-color {
     height: 10vh;
   }
-  
+
   .over-bg {
     background-color: rgb(236, 120, 74);
     max-height: 500px;
     display: flex;
     width: 100%;
   }
-  
+
   .over-bg-lg {
     margin-bottom: auto;
     margin-top: auto;
     width: 50%;
   }
-  
+
   .form-flex {
     display: flex;
     flex-direction: row;
     gap: 1%;
   }
-  
+
   .card-grid {
     display: grid;
     grid-template-columns: 30% 30% 30%;
@@ -221,37 +216,34 @@ body {
     margin-bottom: 4%;
     margin-left: 5%;
   }
+
   .font-w {
-    font-size: 1.8rem
+    font-size: 1.8rem;
   }
-  
-  .search-font {
-    font-weight: 1.5rem !important;
-  }
-  
+
   .letter-spa {
     letter-spacing: 1em;
   }
-  
+
   .d-bloc {
     display: inline !important;
   }
-  
+
   .apply {
     margin-left: 80%;
   }
-  
+
   .font-card {
     font-size: 1.12em;
   }
-  
+
   .travel-bg {
     background-color: lightslategray;
-    height: fit-content;
+    height: auto;
     width: auto;
     display: flex;
   }
-  
+
   .naija-image {
     width: 30% !important;
     margin-left: auto;
@@ -260,11 +252,11 @@ body {
     margin-right: 2% !important;
     margin-bottom: 2% !important;
   }
-  
 
   .w-80 {
     width: 80%;
   }
+
   .works {
     background-color: white;
     text-decoration: none;
@@ -273,7 +265,7 @@ body {
     margin-bottom: 10%;
     margin-left: 0;
   }
-    
+
   .travel-image {
     width: 30% !important;
     margin-left: auto;
@@ -281,44 +273,43 @@ body {
     margin-top: 5%;
     margin-right: 2% !important;
   }
-  
+
   .anytime {
     background-color: lightskyblue;
     display: flex;
   }
-  
+
   .over-any-bg {
     margin-bottom: auto;
     margin-top: auto;
     width: 50%;
   }
-  
+
   .travel-image-p {
     width: 20%;
     margin-left: auto;
     margin-right: 100px;
     margin-top: 2%;
   }
-  
+
   .footer-flex {
     display: flex;
   }
-  
+
   .home {
     width: 40vw;
   }
-  
+
   .facebook {
     width: 40vw;
   }
-    
+
   .sus-width {
     width: 30vw;
   }
 }
 
-
-@media (min-width: 768px) and (max-width:1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .catalogue-width {
     width: 50vw;
   }
@@ -331,7 +322,7 @@ body {
     padding: 2%;
     font-weight: bold;
   }
-  
+
   .text-grid {
     display: grid;
     grid-template-columns: 80% 20%;
@@ -346,7 +337,7 @@ body {
     max-height: 500px;
     display: flex;
   }
-    
+
   .over-bg-lg {
     margin-bottom: auto;
     margin-top: auto;
@@ -356,11 +347,11 @@ body {
   .letter-spa {
     letter-spacing: 1em;
   }
-    
+
   .d-bloc {
     display: inline !important;
   }
-  
+
   .apply {
     margin-left: 80%;
   }
@@ -368,88 +359,89 @@ body {
   .font-card {
     font-size: 1.12em;
   }
-    
-    .form-flex {
-      display: flex;
-      flex-direction: row;
-      gap: 1%;
-    }
-    
-    .card-grid {
-      display: grid;
-      grid-template-columns: 30% 30% 30%;
-      gap: 2%;
-      margin-bottom: 4%;
-      margin-left: 5%;
-    }
-    .font-w {
-      font-size: 1.8rem
-    }
-    
-    .travel-bg {
-      background-color: lightslategray;
-      height: fit-content;
-      width: auto;
-      display: flex;
-    }
-    
-    .naija-image {
-      width: 20% !important;
-      margin-left: auto;
-      border-radius: 50%;
-      margin-top: 5%;
-      margin-right: 100px;
-      margin-bottom: 2% !important;
-    }
-    
-    .works {
-      background-color: white;
-      text-decoration: none;
-      color: dimgrey;
-      margin-top: 10%;
-      margin-bottom: 10%;
-      margin-left: 0;
-    }
-      
-    .travel-image {
-      width: 20%;
-      margin-left: auto;
-      border-radius: 50%;
-      margin-top: 5%;
-      margin-right: 100px;
-    }
-    
-    .anytime {
-      background-color: lightskyblue;
-      display: flex;
-    }
-    
-    .over-any-bg {
-      margin-bottom: auto;
-      margin-top: auto;
-      width: 50%;
-    }
-    
-    .travel-image-p {
-      width: 20%;
-      margin-left: auto;
-      margin-right: 100px;
-      margin-top: 2%;
-    }
-    
-    .footer-flex {
-      display: flex;
-    }
-    
-    .home {
-      width: 40vw;
-    }
-    
-    .facebook {
-      width: 40vw;
-    }
-      
-    .sus-width {
-      width: 30vw;
-    }
+
+  .form-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+  }
+
+  .font-w {
+    font-size: 1.8rem;
+  }
+
+  .travel-bg {
+    background-color: lightslategray;
+    height: auto;
+    width: auto;
+    display: flex;
+  }
+
+  .naija-image {
+    width: 20% !important;
+    margin-left: auto;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-right: 100px;
+    margin-bottom: 2% !important;
+  }
+
+  .works {
+    background-color: white;
+    text-decoration: none;
+    color: dimgrey;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 0;
+  }
+
+  .travel-image {
+    width: 20%;
+    margin-left: auto;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-right: 100px;
+  }
+
+  .anytime {
+    background-color: lightskyblue;
+    display: flex;
+  }
+
+  .over-any-bg {
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 50%;
+  }
+
+  .travel-image-p {
+    width: 20%;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 2%;
+  }
+
+  .footer-flex {
+    display: flex;
+  }
+
+  .home {
+    width: 40vw;
+  }
+
+  .facebook {
+    width: 40vw;
+  }
+
+  .sus-width {
+    width: 30vw;
+  }
 }
