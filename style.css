@@ -1,6 +1,17 @@
 body {
   font-family: Roboto sans-serif;
 }
+.apply {
+  margin-left: 80%;
+}
+
+.d-bloc {
+  display: block !important;
+}
+
+.card-footer-sc {
+  margin-left: 30%;
+}
 
 .main {
   background-image: url(images/pexels-tima-miroshnichenko-2.jpg);

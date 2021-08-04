@@ -35,6 +35,10 @@
   font-size: 1.8rem
 }
 
+.d-bloc {
+  display: inline !important;
+}
+
 .apply {
   margin-left: 80%;
 }

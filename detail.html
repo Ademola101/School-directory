@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Details</title>
   <link rel="stylesheet" href="bootstrap.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" >
   <link rel="stylesheet" href="desktop.css" media="only screen and (min-width: 1024px)">
   <link rel="stylesheet" href="tablet.css" media="(min-width: 768px) and (max-width:1023px)">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -15,57 +15,88 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="d-flex flex-column">
+    <header class="header-color container-fluid md-5">
+  
+      <nav class="nav  gx-lg-0 my-lg-3 d-flex flex-column justify-content-center flex-sm-row "> <a class=
+        "text-decoration-none link-dark nav-item text-color-white catalogue-width navbar-brand mb-3 mt-1 mb-lg-auto" href="index.html">
+        <span class="iconify" data-icon="bi:pin-map-fill" data-inline="false"></span>
+        FindMySchool
+      </a> <ul class="nav d-flex justify-content-around">
+        <li class="nav-item">
+          <a class="text-decoration-none link-dark text-color-white navbar-brand" href="index.html">
+            <i class="bi bi-house-fill"></i><span class="d-none d-lg-inline">Home</span> </a>
+          </li>
+          <li class="nav-item">
+            <a class="text-decoration-none link-dark text-color-white navbar-brand" href="index.html">
+              <span class="iconify" data-icon="la:school" data-inline="false"></span> <span class="d-none d-lg-inline">  Schools</span> </a>
+            </li>
+            <li class="nav-item">
+              <a class="text-decoration-none link-dark text-color-white navbar-brand" href="index.html">
+                 <span class="iconify" data-icon="dashicons:welcome-write-blog" data-inline="false"></span> <span class="d-none d-lg-inline"> Blog</span> </a>
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none link-dark text-color-white navbar-brand" href="#">
+                  <i class="bi bi-person-lines-fill"></i> <span class="d-none d-lg-inline"> Contact</span> </a>
+                </li>
+      </ul>
+        
+      </nav>
+  
+  
+    </header>
+  
   <main>
 
     <div class="shadow p-3 mb-5 bg-white rounded">
     <h1 class="text-danger text-center fw-bold"> GOF International Schoool</h1>
     <div class="row g-2 w-75 mx-auto container-fluid mb-2">
-<div class="col col-sm-6 text-center border fw-bold container-fluid">
+<div class="col col-12 col-sm-6 text-center border fw-bold container-fluid">
 GENDER: <a class="text-decoration-none" href="search.html"> MALE</a>
 </div>
 
-<div class="col col-sm-6 text-center border fw-bold container-fluid">
+<div class="col col-sm-6 text-center border fw-bold container-fluid col-12">
   TYPE: <a class="text-decoration-none" href="search.html"> PRIVATE</a>
   </div>
-<div class="col col-sm-6 text-center border fw-bold">
+<div class="col col-sm-6 text-center border fw-bold col-12">
 LEVEL: <a class="text-decoration-none" href="search.html">PRIMARY</a>
 </div>
-<div class="col col-sm-6 text-center border fw-bold container-fluid">
+<div class="col col-sm-6 text-center border fw-bold container-fluid col-12">
   CITY: <a class="text-decoration-none" href="search.html"> ABUJA</a>
   </div>
-  <div class="col col-sm-6 text-center border fw-bold container-fluid">
+  <div class="col col-sm-6 text-center border fw-bold container-fluid col-12">
     RESIDENCE: <a class="text-decoration-none" href="search.html"> BOARDING</a>
     </div>
       
-  <div class="col col-sm-6 text-center border fw-bold container-fluid"><div>
+  <div class="col col-sm-6 text-center border fw-bold container-fluid col-12"><div>
     EMAIL: <a class="text-decoration-none" href="mailto:you@example.com" > gof@yahoo.com</a>
   </div></div>
   
-  <div class="col col-sm-6 text-center border fw-bold container-fluid">
+  <div class="col col-sm-6 text-center border fw-bold container-fluid col-12">
     PERFORMANCE: <a class="text-decoration-none" href="search.html"> 8*</a>
     </div>
 
     
-  <div class="col col-sm-6 text-center border fw-bold container-fluid">
+  <div class="col col-sm-6 text-center border fw-bold container-fluid col-12">
     CAPACITY: <a class="text-decoration-none" href="search.html"> 800</a>
     </div>
     </div>
-    <button type="button" class="btn btn-primary apply"><i class="fas fa-envelope-square"></i> Apply</button>
-    <div class="card-footer fw-bold mt-2 "><div class="ms-md-5"> <span> <i class="bi bi-telephone-fill"></i>Tel: 
-      <a class="text-decoration-none" href="tel: +2348160434433">+2348160434433</a> </span> <span class="ms-2">
+    <button type="button" class="btn btn-primary apply"><i class="fas fa-envelope-square"></i><span>Apply</span> </button>
+    <div class="card-footer fw-bold mt-2   "><div class="ms-md-5 card-footer-sc"> <span class="d-bloc"> <i class="bi bi-telephone-fill"></i>Tel: 
+      <a class="text-decoration-none" href="tel: +2348160434433">+2348160434433</a> </span> <span class="ms-2 d-bloc">
       <i class="fas fa-car"></i> TRANSPORT: <a class="text-decoration-none" href="#">YES</a> 
     </span>
-    <span class="ms-2"> 
+    <span class="ms-2 d-bloc"> 
       <i class="fas fa-blog"></i> WEBSITE <a class="text-decoration-none" href="#">Got.com</a>
     </span>
-    <span class="ms-2">
+    <span class="ms-2 d-bloc">
       <i class="fas fa-user-graduate"></i> STUDENT ENROLLED: <a class="text-decoration-none" href="#"> 800</a>
-      <span class="ms-2">
+      <span class="ms-sm-2  d-bloc">
         <i class="fas fa-child"></i> STUDENT SUPPORT: <a class="text-decoration-none" href="search.html">YES</a>
       </span>
     </span>
-  </div></div>
+  </div></div> 
     </div>
-  </main>
+  </main></div>
 </body>
 </html>
