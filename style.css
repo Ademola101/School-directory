@@ -29,6 +29,16 @@ body {
   font-size: 1.12em;
 }
 
+.detail-card-footer {
+  font-size: 1.5rem;
+}
+
+.click-bg {
+  background-color: whitesmoke;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
 .school-text {
   color: white;
   text-transform: uppercase;

@@ -35,6 +35,10 @@
   font-size: 1.8rem
 }
 
+.letter-spa {
+  letter-spacing: 1em;
+}
+
 .d-bloc {
   display: inline !important;
 }

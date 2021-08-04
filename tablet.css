@@ -18,6 +18,10 @@
   margin-top: auto;
 }
 
+.letter-spa {
+  letter-spacing: 1em;
+}
+
 .d-bloc {
   display: inline !important;
 }
