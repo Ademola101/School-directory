@@ -2,7 +2,7 @@
 
 > HTML & CSS capstone project: Directory of Schools
 
-<!-- ![screenshot](/images/django-admin.png) -->
+![screenshot](/images/screenshot.png)
 
 ## Built With
 
