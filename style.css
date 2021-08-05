@@ -88,13 +88,14 @@ body {
 }
 
 .h-works {
-  position: relative;
-  bottom: 70px;
   background-color: white;
-  left: 30%;
   font-size: 1rem;
   padding: 2%;
   font-weight: bold;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
 }
 
 .works {
@@ -173,13 +174,15 @@ body {
   }
 
   .h-works {
-    position: relative;
-    top: 2%;
     background-color: white;
-    left: 40%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 1%;
     font-weight: bold;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 
   .text-grid {
@@ -320,12 +323,15 @@ body {
   }
 
   .h-works {
-    position: relative;
     background-color: white;
-    left: 30%;
-    font-size: 1.2rem;
-    padding: 2%;
+    font-size: 1rem;
+    padding: 1%;
     font-weight: bold;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 
   .text-grid {
