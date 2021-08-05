@@ -1,5 +1,11 @@
 body {
   font-family: Roboto, serif;
+  overflow-x: hidden;
+}
+
+.color-footer-sub {
+  background-color: rgb(59, 58, 58);
+  width: 100vw;
 }
 
 .apply {
