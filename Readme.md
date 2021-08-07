@@ -2,7 +2,7 @@
 
 > HTML & CSS capstone project: Directory of Schools
 
-<!-- ![screenshot](/images/django-admin.png) -->
+![screenshot](/images/screenshot.png)
 
 ## Built With
 
@@ -10,9 +10,9 @@
 * CSS
 * Bootstrap
 
-<!-- ### Live Demo -->
+### Live Demo
 
-<!-- [Live Demo link](https://myprojectusermetrics.herokuapp.com/) -->
+[Live Demo link](https://ademola101.github.io/School-directory/)
 
 ## Author
 
